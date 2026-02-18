@@ -1,0 +1,74 @@
+[
+  {
+    "dataset": "CIFAKE",
+    "dataset_key": "cifake_v1_synthetic-real_combined",
+    "generator": "Unknown (mixed)",
+    "real_source": "CIFAR-10 (real photos)",
+    "source": "Kaggle",
+    "train_real": 50000,
+    "train_fake": 50000,
+    "test_real": 10000,
+    "test_fake": 10000,
+    "total": 120000
+  },
+  {
+    "dataset": "Stable Diffusion Faces",
+    "dataset_key": "stable-diffusion-faces_v1_ai-generated",
+    "generator": "Stable Diffusion v1.4",
+    "real_source": "None (all AI-generated)",
+    "source": "Hugging Face",
+    "train_real": 0,
+    "train_fake": 4500,
+    "test_real": 0,
+    "test_fake": 1800,
+    "total": 6300
+  },
+  {
+    "dataset": "AI-Generated vs Real",
+    "dataset_key": "ai-generated-vs-real_v1_fake-real_combined",
+    "generator": "Multiple GANs (StyleGAN, ProGAN, etc.)",
+    "real_source": "Mixed real photos (various sources)",
+    "source": "Kaggle",
+    "train_real": 24000,
+    "train_fake": 23999,
+    "test_real": 6000,
+    "test_fake": 6000,
+    "total": 59999
+  },
+  {
+    "dataset": "DiffusionDB",
+    "dataset_key": "diffusiondb_v1_prompts_2m",
+    "generator": "Stable Diffusion v1.4",
+    "real_source": "None (all AI-generated)",
+    "source": "Hugging Face",
+    "train_real": 0,
+    "train_fake": 1968,
+    "test_real": 0,
+    "test_fake": 492,
+    "total": 2460
+  },
+  {
+    "dataset": "AIGI-Holmes",
+    "dataset_key": "aigi-holmes",
+    "generator": "Multiple (FLUX, Stable Diffusion, DALL-E 3, Midjourney v6)",
+    "real_source": "Real camera photos (various photographers)",
+    "source": "Hugging Face",
+    "train_real": 33850,
+    "train_fake": 31147,
+    "test_real": 5000,
+    "test_fake": 25000,
+    "total": 94997
+  },
+  {
+    "dataset": "BR-Gen",
+    "dataset_key": "br-gen",
+    "generator": "AI Inpainting (DeepFill, EdgeConnect, CoModGAN)",
+    "real_source": "COCO/ImageNet/Places365 (not included - need separate download)",
+    "source": "Google Drive",
+    "train_real": 0,
+    "train_fake": 24000,
+    "test_real": 0,
+    "test_fake": 6000,
+    "total": 30000
+  }
+]

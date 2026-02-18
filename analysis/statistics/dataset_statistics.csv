@@ -1,0 +1,7 @@
+dataset,dataset_key,generator,real_source,source,train_real,train_fake,test_real,test_fake,total
+CIFAKE,cifake_v1_synthetic-real_combined,Unknown (mixed),CIFAR-10 (real photos),Kaggle,50000,50000,10000,10000,120000
+Stable Diffusion Faces,stable-diffusion-faces_v1_ai-generated,Stable Diffusion v1.4,None (all AI-generated),Hugging Face,0,4500,0,1800,6300
+AI-Generated vs Real,ai-generated-vs-real_v1_fake-real_combined,"Multiple GANs (StyleGAN, ProGAN, etc.)",Mixed real photos (various sources),Kaggle,24000,23999,6000,6000,59999
+DiffusionDB,diffusiondb_v1_prompts_2m,Stable Diffusion v1.4,None (all AI-generated),Hugging Face,0,1968,0,492,2460
+AIGI-Holmes,aigi-holmes,"Multiple (FLUX, Stable Diffusion, DALL-E 3, Midjourney v6)",Real camera photos (various photographers),Hugging Face,33850,31147,5000,25000,94997
+BR-Gen,br-gen,"AI Inpainting (DeepFill, EdgeConnect, CoModGAN)",COCO/ImageNet/Places365 (not included - need separate download),Google Drive,0,24000,0,6000,30000
